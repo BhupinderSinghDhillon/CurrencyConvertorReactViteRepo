@@ -1,0 +1,10 @@
+.input-box-container {
+    display: flex;
+    gap: 10px; /* Add spacing between the divs */
+    align-items: center; /* Align items vertically */
+  }
+  
+  .input-box, .currency-box {
+    display: flex;
+    flex-direction: column;
+  }
