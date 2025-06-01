@@ -34,8 +34,9 @@ export default function CurrencyHome() {
 
     return (
         <div style={{ backgroundImage: `url(${currencyImg})`, backgroundSize: 'cover', height: '100vh' }} className="bg-gray-200 flex flex-col justify-center items-center">
-        <h1 className="text-4xl font-bold text-center text-gray-800 mb-8 shadow-xl bg-orange-200 rounded-xl p-4">Currency Converter (React+Vite)</h1>
-        <h4 className="text-lg font-semibold text-center text-yellow-200 mb-4 shadow-lg bg-gray-400 rounded-xl p-4">Data is fetched in real-time from https://v6.exchangerate-api.com</h4>
+        <h1 className="text-4xl font-bold text-center text-gray-800 mb-8 shadow-xl bg-orange-200 rounded-xl p-4">Currency Converter (React+Vite & Azure App Service)</h1>
+        <h4 className="text-lg font-semibold text-center text-yellow-200 mb-4 shadow-lg bg-gray-700 rounded-xl p-2">Data is fetched in real-time from https://v6.exchangerate-api.com</h4>
+        <h4 className="text-lg font-semibold text-center text-yellow-200 mb-2 shadow-lg bg-gray-700 rounded-xl p-2">Created by Bhupinder Singh</h4>
         <div className="shadow-md rounded-4xl px-8 pt-6 pb-8 mb-4 flex flex-col gap-4 max-w-lg items-center mt-20 mx-auto bg-linear-[10deg,darkgray_10%,silver_50%]">
         <InputBox 
         label="From"
